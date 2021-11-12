@@ -1,0 +1,120 @@
+ogc_fid,full_id,osm_id,osm_type,amenity,name_en
+1,n309894643,309894643,node,restaurant,Pelister
+6,n459668914,459668914,node,restaurant,Gino
+9,n577538782,577538782,node,restaurant,Prince
+10,n600905655,600905655,node,restaurant,Bosphorus Turkish Restaurant
+11,n696669231,696669231,node,restaurant,iV
+12,n908273433,908273433,node,restaurant,Turist
+21,n1380378665,1380378665,node,restaurant,Rustikana
+24,n1535266560,1535266560,node,restaurant,Restaurant Ragusa 919
+32,n1748017584,1748017584,node,restaurant,Marana
+33,n1751563134,1751563134,node,restaurant,Pastel Wine & Dine
+34,n1752178268,1752178268,node,restaurant,511
+35,n1752186795,1752186795,node,restaurant,Acorde
+38,n1857486052,1857486052,node,restaurant,Tica-Eleni
+40,n1867176020,1867176020,node,restaurant,Trend
+44,n1985948203,1985948203,node,restaurant,Balila
+45,n1999633538,1999633538,node,restaurant,Food Court Ramstore
+46,n2105387352,2105387352,node,restaurant,Bruklinski
+47,n2159535851,2159535851,node,restaurant,Bella Vista
+48,n2294320125,2294320125,node,restaurant,Dva Elena
+49,n2322886873,2322886873,node,restaurant,Arabesque
+50,n2324290153,2324290153,node,restaurant,Oreov Lad
+52,n2580192144,2580192144,node,restaurant,Gradina
+53,n2818872887,2818872887,node,restaurant,Sokache
+55,n3101726040,3101726040,node,restaurant,Beerhouse AN
+56,n3341289789,3341289789,node,restaurant,Damaskino
+57,n3484100384,3484100384,node,restaurant,Dal Fufo - Galija
+58,n3505013893,3505013893,node,restaurant,Destan
+61,n3536179577,3536179577,node,restaurant,Nostalgija
+62,n3599403566,3599403566,node,restaurant,Kaj Marsalot
+63,n3648714485,3648714485,node,restaurant,Barbakan
+65,n3830455732,3830455732,node,restaurant,Pizza Amica
+71,n4016557277,4016557277,node,restaurant,Campione lounge Bar
+72,n4016557278,4016557278,node,restaurant,DejaVu Lounge
+73,n4101107990,4101107990,node,restaurant,Makedonska sofra
+74,n4126731965,4126731965,node,restaurant,Sky Restaurant
+75,n4149490289,4149490289,node,restaurant,Amigos Mexican Cantina
+76,n4195733217,4195733217,node,restaurant,Soul-Kitchen
+77,n4239053639,4239053639,node,restaurant,Beta
+81,n4327921318,4327921318,node,restaurant,Thong Thai
+82,n4346542839,4346542839,node,restaurant,"Lounge Bar & Restaurant ""Square 21"""
+84,n4407370494,4407370494,node,restaurant,equestrian
+85,n4436518191,4436518191,node,restaurant,Kaj Serdarot
+86,n4436534289,4436534289,node,restaurant,Destan
+87,n4436534489,4436534489,node,restaurant,Austrian Palace
+89,n4471884330,4471884330,node,restaurant,Four
+91,n4491144570,4491144570,node,restaurant,Restaurant Bure Srna
+92,n4531682389,4531682389,node,restaurant,Macedonian House Restaurant
+94,n4650542892,4650542892,node,restaurant,Gostilnica Sofra
+95,n4650625589,4650625589,node,restaurant,Picerija Kremisimo
+96,n4720703993,4720703993,node,restaurant,Dojrana Skopje
+97,n4838686622,4838686622,node,restaurant,Bonimi
+99,n4976334922,4976334922,node,restaurant,T'ga za jug
+100,n4982232721,4982232721,node,restaurant,BistRaw
+102,n5019758021,5019758021,node,restaurant,Park
+104,n5072397092,5072397092,node,restaurant,Pizza Familija
+105,n5101621121,5101621121,node,restaurant,GARDEN
+106,n5131832941,5131832941,node,restaurant,7 Grill Restaurant
+107,n5160613722,5160613722,node,restaurant,Meze Bar
+108,n5184727125,5184727125,node,restaurant,Ubac
+109,n5224224121,5224224121,node,restaurant,guest house Gurman
+110,n5246219203,5246219203,node,restaurant,Baba Cana
+111,n5268700370,5268700370,node,restaurant,Pizza Jakomo
+112,n5289706561,5289706561,node,restaurant,Star Ocean
+113,n5292130848,5292130848,node,restaurant,Fitness house
+114,n5467884712,5467884712,node,restaurant,Segreto Plus
+115,n5548809221,5548809221,node,restaurant,Kaj Serdarot
+117,n5572053321,5572053321,node,restaurant,Debar Maalo
+118,n5624670966,5624670966,node,restaurant,MCM Meze Bar
+119,n5624682355,5624682355,node,restaurant,Kostarika
+120,n5624682356,5624682356,node,restaurant,Kalabalak
+121,n5624682357,5624682357,node,restaurant,Staro Skupi
+122,n5624682358,5624682358,node,restaurant,Zanzibar
+123,n5626432520,5626432520,node,restaurant,Idadija
+124,n5626433431,5626433431,node,restaurant,Nadzak
+125,n5626433457,5626433457,node,restaurant,Fruti Di Mare
+126,n5626433480,5626433480,node,restaurant,Gostilnica Ilinden
+127,n5626433502,5626433502,node,restaurant,Kaj Pero
+128,n5692608680,5692608680,node,restaurant,Gostilnica Estel
+129,n5770427174,5770427174,node,restaurant,Aleksandrija
+130,n5789449053,5789449053,node,restaurant,SNOSTI MINAV
+132,n5813417254,5813417254,node,restaurant,"Kafana ""Debar Maalo"""
+135,n6054048486,6054048486,node,restaurant,Bratstvo
+141,n6102488864,6102488864,node,restaurant,Restoran Frosina
+143,n6268687385,6268687385,node,restaurant,Gala Kujna
+144,n6275187295,6275187295,node,restaurant,EZO
+146,n6385566985,6385566985,node,restaurant,Restaurant ABC
+148,n6405264185,6405264185,node,restaurant,"Pizza ""Deni"""
+149,n6514996385,6514996385,node,restaurant,Kosmos
+150,n6586691822,6586691822,node,restaurant,La Pizza
+151,n6781335887,6781335887,node,restaurant,Grill House Rio
+152,n6781337085,6781337085,node,restaurant,Gjeltoria Palas
+153,n6788977446,6788977446,node,restaurant,Vega
+154,n6796436088,6796436088,node,restaurant,Saraj
+155,n6814231688,6814231688,node,restaurant,Tako mako
+156,n6814231700,6814231700,node,restaurant,Ohrid
+157,n6814231702,6814231702,node,restaurant,Markt kitchen
+158,n6814231793,6814231793,node,restaurant,Sac
+159,n6814236587,6814236587,node,restaurant,Skopsko
+160,n6814236621,6814236621,node,restaurant,Palas
+161,n6814245589,6814245589,node,restaurant,Schpajs
+162,n6814246691,6814246691,node,restaurant,Don Giovanni
+163,n6814246724,6814246724,node,restaurant,Concept
+164,n6815434686,6815434686,node,restaurant,Restoran Saraj
+165,n6815434689,6815434689,node,restaurant,Toto
+167,n6815434692,6815434692,node,restaurant,Teteks
+169,n6815918386,6815918386,node,restaurant,Mosh
+170,n6815931392,6815931392,node,restaurant,Metzka
+171,n6821158588,6821158588,node,restaurant,Davidoff
+172,n6827032731,6827032731,node,restaurant,Pizzeria Bik
+173,n6827032733,6827032733,node,restaurant,Old Balkan
+174,n6827076186,6827076186,node,restaurant,Kursumli An
+175,n7001354685,7001354685,node,restaurant,Bure Leptokarija
+176,n7027229685,7027229685,node,restaurant,Restaurant National
+177,n7027229686,7027229686,node,restaurant,Kaj Jole
+178,n7093171485,7093171485,node,restaurant,Rock Kafana Rustikana 2.0
+183,n8745631651,8745631651,node,restaurant,Paradise Food
+186,n8948359876,8948359876,node,restaurant,Equilibrium
+187,n9200216340,9200216340,node,restaurant,Mexican street food
+188,n9200216346,9200216346,node,restaurant,Boko
