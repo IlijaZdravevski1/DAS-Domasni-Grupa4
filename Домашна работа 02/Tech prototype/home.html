@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FindRestorans</title>
+    <style>
+        body{
+            background-image: url("background.jpg");
+        }
+        .naslov{
+            background: lightblue;
+            font-size: 70px;
+            color: black;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-family: Arial;
+            margin-bottom: 30px;
+
+        }
+        .vreme{
+            display: inline;
+            padding-left: 40px;
+            width: 20%;
+            background: black;
+            color: lightblue;
+            font-size: 45px;
+        }
+
+        .registracija{
+            display:inline;
+            margin-bottom: 150px;
+            text-align: left;
+            width: 30%;
+            background: lightblue;
+            color: black;
+            font-size: 45px;
+            padding-left: 65px;
+            margin-left: 80px;
+        }
+
+        .lokacija{
+            text-align: center;
+            background: lightblue;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 45px;
+            color: black;
+            font-family: Arial;
+            width: 400px;
+            position: center;
+            margin-bottom: 70px;
+            margin-left: 575px;
+        }
+        .lokacija#dugmelokacija{
+            background-color: lightblue;
+        }
+
+        .tip{
+
+        }
+
+        .tip#peski{
+
+
+            display: inline;
+
+        }
+        .tip#tocak{
+
+            display: inline;
+        }
+        .tip#kola{
+
+            display: inline;
+        }
+
+        .potvrdi{
+            text-align: center;
+            background: lightblue;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 30px;
+            color: black;
+            font-family: Arial;
+            margin-bottom: 45px;
+            margin-left: 725px;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class = "naslov">Пронајди Ресторан</div>
+
+<br>
+
+<div class = "vreme">
+    <span id = "datetime"></span>
+</div>
+
+<button class="registracija" onclick="location.href= 'najava.html';" id = "dugmereg">Најaва Регистрација</button>
+
+<br>
+<button class = "lokacija" onclick="location.href = 'vneslokacija.html';" id = "dugmelokacija">Тука внесете ја вашата локација</button>
+<br>
+<div class = "tip">
+    <span id = "peski"><img src="pesak.png" height="100" width="100"/></span>
+    <span id = "tocak"><img src="bicika.png" height="100" width="100"/></span>
+    <span id = "kola"><img src="kola.png" height="100" width="100"/></span>
+</div>
+
+<button class = "potvrdi">Потврди</button>
+</body>
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    dt.format('DD M YYYY | hh:mm')
+</script>
+</html>

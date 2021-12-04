@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Најва/Регистрација</title>
+</head>
+<body>
+<div class = "naslov">Пронајди ресторан</div>
+
+<p></p>
+
+<div class = "vreme">
+    <span id = "datetime"></span>
+</div>
+
+<p id = "najava">Најависе:</p>
+
+<div id="dialog" title="User Info"></div>
+<table>
+    <tr>
+        <td><label></label></td>
+        <td><input placeholder="Внеси е-мејл адреса" id="email"></td>
+
+    </tr>
+    <tr>
+        <td><label></label></td>
+        <td><input placeholder="Внеси пасворд" id="password"></td>
+
+    </tr>
+</table>
+<br>
+<button id="submit" onclick="location.href='profil.html';" id = "potvrdaprofil">Потврди</button>
+<br>
+<div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>
+</body>
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+</html>
