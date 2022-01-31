@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <style>
+        #map {
+          height: 100%;
+        }
+        html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>    
+   
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+<body>
+
+
+<style>
+	#map {
+		height: 70%;
+	}
+</style>
+
+<script>
+	let map
+    let marker
+  let markers=[]
+	function initMap() {
+		map = new google.maps.Map(document.getElementById('map'), {
+			center: { lat: 41.99, lng: 21.456 },
+			zoom: 10
+		})
+        
+        
+
+      
+        home_marker = new google.maps.Marker({
+                position: {lat: 42.004676276950306, lng: 21.409826849727082},
+                map: map,
+                scale: 0.1,
+                label: 'home',
+                title: 'home'
+            })
+            
+          
+              
+
+
+            
+
+        <% for(let i = 0; i < restaurants.length; i++) { %>
+            
+            marker = new google.maps.Marker({
+                position: {lat: parseFloat('<%= restaurants[i].lat %>'),
+                 lng: parseFloat('<%= restaurants[i].long %>')
+                },
+                map: map,
+                scale: 0,
+                label: '<%= restaurants[i].name_en %>',
+                title: '<%= restaurants[i].name_en %>'
+            })
+
+            markers.push(marker)            
+            marker.setMap(map)
+
+        <% } %>
+
+    pathBetween.setMap(map);
+	}
+</script>
+<header>
+  <div class="logo">
+    <img src="/restaurant.png" alt="Logo">
+  </div>
+  <ul>
+    <li>
+        <a href="/logout">Logout</a>
+    </li>
+    <li>
+      <a href="/about">About Us</a>
+    </li>
+  </ul>
+</header>
+<div class="" id="map"></div>
+<br>
+<h3>
+  Click on location to draw distance between home and chosen restaurant, click clear to clear lines
+</h3>
+<br>
+<div>
+</div>
+<div class="container">
+  <% restaurants.forEach(restaurant => { %>
+      <div class="restaurant-card">
+      <h2><%= restaurant.name_en %></h2>
+      <div>
+        <div>
+          <button onclick="drawPolyline('<%= restaurant.name_en %>')" class="location">location</button>
+        </div>
+        <div>
+          <div class="category"><span>Category:</span> <%= restaurant.category %></div>
+        </div>      
+      </div>
+      </div>
+  <% }) %>
+  <button onclick="window.location.reload();" class="clear">clear</button>
+</div>
+
+
+
+
+<script>
+    
+    
+    
+
+   function drawPolyline(name){
+
+    
+    for(var i = 0;i<markers.length;i++)
+    {
+      if(name===markers[i].label){
+
+      const path = new google.maps.Polyline({
+      path: [markers[i].getPosition(),home_marker.getPosition()],
+      geodesic: true,
+      strokeColor: "#FF0000",
+      strokeOpacity: 4.0,
+      strokeWeight: 4,
+    });
+
+    path.setMap(map);
+      }
+    }
+
+    }    
+</script>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMraH0dFJoaQ2yJMW7R3cdAYXFpjDAaXc&callback=initMap">
+</script>
+  </body>
+</html>
+
+
+
+
+ 
